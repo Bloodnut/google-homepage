@@ -1,0 +1,23 @@
+
+img { 
+    display: block;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+#textfield {
+    display: flex;
+    flex: 100%;
+    margin: 0;
+    padding: 0;
+    height: 34px;
+    margin-top: -37px;
+    width: 40%;
+}    
