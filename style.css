@@ -21,3 +21,12 @@ button {
     margin-top: -37px;
     width: 40%;
 }    
+#button {
+    position: center;
+}
+#search {
+    display: inline-block;
+}
+#feeling-lucky {
+    display: inline-block;
+}
