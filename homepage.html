@@ -5,24 +5,28 @@
 </head>
 <main>
     <body> 
-        <div class="searchbar">
-            <div>
-            <img id="google-logo" 
-                src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
-                alt="google logo"> 
+        <div class="container"></div>
+                <div class=center-logo>
+                <img id="google-logo" 
+                    src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
+                    alt="google logo"> 
+                </div>
+
+                <div class="center-searchbar">
+                <form id="searchform" action="#">
+                    <input type="text" id="textfield" placeholder=" This will be removed"
+                    name="search">
+                        <div id="button">
+                            <button id="search-button">
+                            Google search
+                            </button>
+                            <button id="feeling-lucky">
+                            I'm feeling lucky
+                            </button>
+                        </div>
+                    </input>
+                </form>  
             </div>
-            <form action="#">
-                <input type="text" id="textfield" placeholder=" This will be removed"
-                name="search">
-                    <div id="button"></div>
-                        <button id="search">
-                        Google search
-                        </button>
-                        <button id="feeling-lucky">
-                        I'm feeling lucky
-                        </button>
-                    </div>
-            </form>   
         </div>
     </body>
 </main>

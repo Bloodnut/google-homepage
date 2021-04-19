@@ -1,13 +1,28 @@
 
 img { 
-    display: block;
     vertical-align: middle;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    padding-top: 109px;
+    aspect-ratio: auto 272 / 92;
+    width: 272px;
+}
+.container {
+    display:flex;
+}
+.center-logo {
+    text-align: -webkit-center;
+    display: flex;
+    box-align: center;
+}
+.center-searchbar {
+    margin-top: -20px;
+    min-width: 980px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
 }
 button {
-    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
@@ -24,7 +39,7 @@ button {
 #button {
     position: center;
 }
-#search {
+#search-button {
     display: inline-block;
 }
 #feeling-lucky {
