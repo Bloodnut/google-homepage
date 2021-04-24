@@ -1,31 +1,37 @@
 
-img { 
-    vertical-align: middle;
+#google-logo { 
     margin-left: auto;
     margin-right: auto;
     padding-top: 109px;
     aspect-ratio: auto 272 / 92;
     width: 272px;
+    display: flex;
 }
 .container {
     display:flex;
+    flex-direction:column;
 }
 .center-logo {
-    text-align: -webkit-center;
     display: flex;
-    box-align: center;
+    align-items: center;
+    justify-content: center;
+    order: 1;
 }
-.center-searchbar {
+.searchbar {
     margin-top: -20px;
     min-width: 980px;
     height: 64px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
 }
-button {
+.buttons {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    position: center;
+    display:flex;
 }
 #textfield {
     display: flex;
@@ -36,12 +42,3 @@ button {
     margin-top: -37px;
     width: 40%;
 }    
-#button {
-    position: center;
-}
-#search-button {
-    display: inline-block;
-}
-#feeling-lucky {
-    display: inline-block;
-}
