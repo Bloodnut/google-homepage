@@ -1,44 +1,37 @@
-
-#google-logo { 
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 109px;
-    aspect-ratio: auto 272 / 92;
-    width: 272px;
-    display: flex;
+:root{
+    margin:0;
+    padding:0;
+    height: 0;
 }
 .container {
     display:flex;
-    flex-direction:column;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
 }
 .center-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    order: 1;
+    width: 500px;
+    display: block;
 }
-.searchbar {
-    margin-top: -20px;
-    min-width: 980px;
-    height: 64px;
-    display: flex;
-    align-items: center;
-    align-items: center;
-    justify-content: center;
+.center-logo img{
+    width:500px;
+    height:auto;
 }
-.buttons {
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    position: center;
-    display:flex;
+#form-container {
+    display: block;
+    width: 600px;
+    padding: 30px 15px;
 }
-#textfield {
-    display: flex;
-    flex: 100%;
-    margin: 0;
-    padding: 0;
-    height: 34px;
-    margin-top: -37px;
-    width: 40%;
-}    
+#form-container form {
+    padding: 30px 15px;
+    text-align: center;
+}
+#form-container form :is(input, button) {
+    padding: 5px 15px;
+    margin: 0px 5px 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow:0 0 5px rgba(0,0,0,0.4);
+    border:none;
+}
