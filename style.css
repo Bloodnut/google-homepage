@@ -3,6 +3,9 @@
     padding:0;
     height: 0;
 }
+html {
+    font-family: arial,sans-serif;
+}
 .container {
     display:flex;
     justify-content: center;
@@ -34,4 +37,29 @@
     border-radius: 15px;
     box-shadow:0 0 5px rgba(0,0,0,0.4);
     border:none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-style: thick;
+}
+li, a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: #222;
+    
+}
+li a {
+    padding: 8px;
+    display: block;
+    padding: 8px;
+}
+head {
+    background-color: blue;
+}
+#rightside {
+    float: right;
 }
