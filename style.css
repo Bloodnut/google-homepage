@@ -34,9 +34,17 @@ html {
     padding: 5px 15px;
     margin: 0px 5px 20px;
     text-align: center;
-    border-radius: 15px;
-    box-shadow:0 0 5px rgba(0,0,0,0.4);
+    font-family: Arial;
     border:none;
+}
+#form-container form input {
+    padding: 12.5px;
+    border-radius: 24px;
+    box-shadow:0 0 5px rgba(0,0,0,0.2);
+}
+#form-container form button {
+    border-radius: 2px;
+    
 }
 ul {
     list-style-type: none;
@@ -57,11 +65,16 @@ li, a {
     text-decoration: none;
     color: rgba(0,0,0,0.87);
     padding: 8px;
-
 }
 head {
     background-color: blue;
 }
 #rightside {
+    float: right;
+}
+.searchbar input {
+    width: 82.5%;
+}
+#rightside-bot {
     float: right;
 }
