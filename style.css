@@ -14,12 +14,12 @@ html {
     height: 100vh;
 }
 .center-logo {
-    width: 500px;
     display: block;
 }
 .center-logo img{
-    width:500px;
-    height:auto;
+    aspect-ratio: auto 272 / 92;
+    height: 92px;
+    margin-bottom: -50px;
 }
 #form-container {
     display: block;
@@ -45,17 +45,19 @@ ul {
     width: 100%;
     border-style: thick;
 }
+ul li:nth-child(3) {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.2);
+}
 li, a {
     float: left;
     display: block;
     text-decoration: none;
-    color: #222;
-    
-}
-li a {
+    color: rgba(0,0,0,0.87);
     padding: 8px;
-    display: block;
-    padding: 8px;
+
 }
 head {
     background-color: blue;
